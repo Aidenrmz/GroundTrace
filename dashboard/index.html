@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GroundTrace</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          colors: {
+            'groundtrace-bg': '#0f0f0f',
+            'groundtrace-surface': '#1a1a1a',
+            'groundtrace-border': '#2a2a2a',
+            'groundtrace-accent-red': '#e05c5c',
+            'groundtrace-accent-green': '#5ce05c',
+            'groundtrace-text': '#e8e8e8',
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#0f0f0f] text-[#e8e8e8]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
